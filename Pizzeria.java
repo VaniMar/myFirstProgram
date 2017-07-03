@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Write a description of class Pizzeria here.
  *
@@ -7,27 +7,22 @@
  */
 public class Pizzeria
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private List<Pizza> pizzas;
+    
     /**
-     * Constructor for objects of class Pizzeria
+     * Usuario podra ver el menu de la pizzeria para hacer su pedido
      */
-    public Pizzeria()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
+    public void getMenu() {}
+    
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Para hacer pedido de que pizzas quiere comer el ususario
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void hacerPedido(){
     }
+    
+    /**
+     * En caso que la pizeria tenga una promo disponible
+     * como caso miercoles 2*1
+     */
+    public void getPromo() {}
 }
